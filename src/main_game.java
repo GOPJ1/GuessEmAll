@@ -39,6 +39,7 @@ public class main_game {
     }
 
 
+    // Read in the file containing all english words
     private static void read_input( String fileName ){
         try{
             URL path = main_game.class.getResource(FILE_NAME);
